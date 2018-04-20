@@ -2,14 +2,27 @@
 
 $baseUrl = 'http://www.gsi.go.jp/KOKUJYOHO/CENTER/kendata/';
 $pref = array(
-    'hokkaido', 'aomori', 'iwate', 'miyagi', 'akita', 'yamagata',
-    'fukushima', 'ibaraki', 'tochigi', 'gunma', 'saitama', 'chiba',
-    'tokyo', 'kanagawa', 'yamanashi', 'nagano', 'niigata',
-    'toyama', 'ishikawa', 'fukui', 'gifu', 'shizuoka', 'aichi',
-    'mie', 'shiga', 'kyoto', 'osaka', 'hyogo', 'nara', 'wakayama',
+    // 北海道
+    'hokkaido',
+    // 東北
+    'aomori', 'iwate', 'miyagi', 'akita', 'yamagata', 'fukushima',
+    // 関東
+    'ibaraki', 'tochigi', 'gunma', 'saitama', 'chiba',
+    'tokyo', 'kanagawa', 'yamanashi', 'nagano',
+    // 北陸
+    'niigata', 'toyama', 'ishikawa', 'fukui',
+    // 中部
+    'gifu', 'shizuoka', 'aichi', 'mie',
+    // 近畿
+    'shiga', 'kyoto', 'osaka', 'hyogo', 'nara', 'wakayama',
+    // 中国
     'tottori', 'shimane', 'okayama', 'hiroshima', 'yamaguchi',
-    'tokushima', 'kagawa', 'ehime', 'kochi', 'fukuoka', 'saga',
-    'nagasaki', 'kumamoto', 'oita', 'miyazaki', 'kagoshima',
+    // 四国
+    'tokushima', 'kagawa', 'ehime', 'kochi',
+    // 九州
+    'fukuoka', 'saga', 'nagasaki', 'kumamoto',
+    'oita', 'miyazaki', 'kagoshima',
+    // 沖縄
     'okinawa'
 );
 
